@@ -29,13 +29,13 @@
 
 ## ⚙️ 기술 스택
 
-| 구분      | 사용 기술 |
-|----------|-----------|
-| Frontend | React / Next.js / TailwindCSS / Leaflet.js (지도) |
-| Backend  | Node.js / Express / MongoDB |
-| Auth     | JWT / OAuth2 (Google, Naver 예정) |
-| Infra    | AWS (EC2, S3) / GitHub Actions (CI/CD) |
-| Design   | Figma / shadcn/ui / Lucide Icons |
+| 구분      | 사용 기술                                 |
+|----------|-----------------------------------------|
+| Frontend | React                                   |
+| Backend  | Java / Spring Boot / PostSql / Maven    |
+| Auth     | JWT / OAuth2 (Google, Naver 예정)        |
+| Infra    | AWS (EC2, S3) / GitHub Actions (CI/CD)  |
+| Design   | Figma / shadcn/ui / Lucide Icons        |
 
 ---
 
