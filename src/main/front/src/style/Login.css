@@ -1,0 +1,140 @@
+/* 전체 화면 중앙 정렬 */
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+/* 흰색 모달 박스 */
+.login-modal {
+    position: relative;
+    width: 420px;
+    padding: 32px 36px 28px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+}
+
+/* X 버튼 (우측 상단) */
+.login-close-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    border: none;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* LOGIN 타이틀 */
+.login-title {
+    margin: 8px 0 24px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+/* 폼 전체 */
+.login-form {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+/* 아이디/비번 인풋 묶음 */
+.login-input-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+/* 입력창 */
+.login-input {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid #eeeeee;
+    background: #f7f7fb;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* 로그인 버튼 (오른쪽 파란 박스 느낌) */
+.login-button {
+    width: 90px;
+    border: none;
+    border-radius: 4px;
+    background: #1976d2;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* 아래쪽 영역 (소셜 + 링크) */
+.login-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* 소셜 버튼들 */
+.login-socials {
+    display: flex;
+    gap: 8px;
+}
+
+.social-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* 색만 비슷하게 */
+.social-btn.naver {
+    background: #03c75a;
+    color: white;
+}
+
+.social-btn.google {
+    background: #ffffff;
+    border: 1px solid #ddd;
+}
+
+.social-btn.kakao {
+    background: #fee500;
+}
+
+/* 오른쪽 텍스트 링크들 */
+.login-links {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+}
+
+.text-link {
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 12px;
+    color: #666;
+    cursor: pointer;
+}
+
+.text-link:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    color: #ccc;
+}
