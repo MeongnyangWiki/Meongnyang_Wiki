@@ -1,6 +1,6 @@
 // src/pages/Login.js
 import React, { useState } from "react";
-import "../style/Login.css"; // 아래 CSS 파일도 같이 만들어줘
+import "../styles/Login.css"; // 아래 CSS 파일도 같이 만들어줘
 
 export default function Login() {
     const [id, setId] = useState("");

@@ -1,0 +1,155 @@
+/* 전체 감싸는 영역 (오른쪽 지도 위에 뜨는 느낌) */
+.md-wrapper {
+    width: 340px;
+    max-height: 100vh;
+    background: transparent;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* 카드 전체 */
+.md-container {
+    position: relative;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 12px 26px rgba(0, 0, 0, 0.15);
+    padding: 14px 16px 18px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* X 버튼 */
+.md-close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: none;
+    background: #1a73e8;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* 상단 업체 카드 */
+.md-place-card {
+    border-bottom: 1px solid #edf0f7;
+    padding-bottom: 14px;
+    margin-bottom: 14px;
+}
+
+/* 사진 영역 */
+.md-photos {
+    display: grid;
+    grid-template-columns: 2fr 1.3fr;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+
+.md-photo-main {
+    height: 90px;
+    background: #edf0f7;
+    border-radius: 6px;
+}
+
+.md-photo-sub-grid {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 4px;
+}
+
+.md-photo-sub {
+    background: #edf0f7;
+    border-radius: 4px;
+}
+
+/* 텍스트 정보 */
+.md-place-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.md-category {
+    font-size: 11px;
+    color: #5284ff;
+}
+
+.md-name-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.md-name {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.md-rating {
+    font-size: 12px;
+    color: #f4b400;
+}
+
+.md-address {
+    font-size: 11px;
+    color: #777;
+}
+
+.md-hours {
+    font-size: 11px;
+    color: #999;
+}
+
+/* 리뷰 카드 */
+.md-review-card {
+    padding-top: 6px;
+}
+
+.md-review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.md-review-title {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.md-review-dot {
+    margin-left: 3px;
+    color: #ff5252;
+}
+
+.md-review-date {
+    font-size: 11px;
+    color: #999;
+}
+
+.md-review-rating-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 6px;
+}
+
+.md-review-score {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.md-review-stars {
+    font-size: 12px;
+    color: #f4b400;
+}
+
+.md-review-content {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #555;
+    white-space: normal;
+}
