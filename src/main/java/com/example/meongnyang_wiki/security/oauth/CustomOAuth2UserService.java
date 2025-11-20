@@ -99,7 +99,7 @@ public class CustomOAuth2UserService implements OAuth2UserService<OAuth2UserRequ
 
         Collection<GrantedAuthority> authorities =
                 Collections.singletonList(new SimpleGrantedAuthority("ROLE_USER"));
-        
+
         Map<String, Object> extendedAttributes = new HashMap<>(attributes);
         extendedAttributes.put("userId", user.getUserId());
         extendedAttributes.put("userNm", user.getUserNm());
